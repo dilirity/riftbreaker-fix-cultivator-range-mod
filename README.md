@@ -1,4 +1,4 @@
-### An unofficial fix for the cultuvator drones not planting in a larger radius when upgrading the cultivator to level 2 and 3.
+### An unofficial fix for the cultuvator drones not planting in a larger radius when upgrading the cultivator to level 2 and 3 in the game "The Riftbreaker".
 
 ## Installation
 
