@@ -71,7 +71,7 @@ EntityBlueprint
 			building_time		float:"10"
 			radius				float:"30"
 
-			drone_blueprint		string:"units/drones/drone_flora_cultivator"
+			drone_blueprint		string:"units/drones/drone_flora_cultivator_lvl_3"
 			drone_attachments	string:"att_landing"
 			drone_per_spot		int:"9"
 		}

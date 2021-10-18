@@ -207,3 +207,66 @@ EntityBlueprint
 		}
 	}
 }
+
+EntityBlueprint
+{
+	name  "units/drones/drone_flora_cultivator_lvl_1"
+
+	base_blueprint 			units/drones/drone_flora_cultivator
+
+	LuaDesc
+	{
+		script "lua/units/air/planter_drone.lua"
+
+		database
+		{
+			plant_marker		string:"units/drones/drone_flora_cultivator_marker"
+			plant_effect		string:"effects/destructibles/grass_medium"
+
+			plant_time		float:"10"
+			plant_radius	float:"20"
+		}
+	}
+}
+
+EntityBlueprint
+{
+	name  "units/drones/drone_flora_cultivator_lvl_2"
+
+	base_blueprint 			units/drones/drone_flora_cultivator
+
+	LuaDesc
+	{
+		script "lua/units/air/planter_drone.lua"
+
+		database
+		{
+			plant_marker		string:"units/drones/drone_flora_cultivator_marker"
+			plant_effect		string:"effects/destructibles/grass_medium"
+
+			plant_time		float:"10"
+			plant_radius	float:"25"
+		}
+	}
+}
+
+EntityBlueprint
+{
+	name  "units/drones/drone_flora_cultivator_lvl_3"
+
+	base_blueprint 			units/drones/drone_flora_cultivator
+
+	LuaDesc
+	{
+		script "lua/units/air/planter_drone.lua"
+
+		database
+		{
+			plant_marker		string:"units/drones/drone_flora_cultivator_marker"
+			plant_effect		string:"effects/destructibles/grass_medium"
+
+			plant_time		float:"10"
+			plant_radius	float:"30"
+		}
+	}
+}
